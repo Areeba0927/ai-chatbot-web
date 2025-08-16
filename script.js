@@ -1,4 +1,4 @@
-const apiKey = "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"; // Your OpenRouter API key
+const apiKey = "......; // Your OpenRouter API key
 
 async function sendMessage() {
   const input = document.getElementById("user-input");
@@ -33,3 +33,4 @@ async function sendMessage() {
   chatLog.innerHTML += `<p><strong>Bot:</strong> ${reply}</p>`;
   chatLog.scrollTop = chatLog.scrollHeight;
 }
+
